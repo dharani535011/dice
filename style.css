@@ -1,0 +1,96 @@
+#magic{
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: center;
+    align-items: center;
+    border: 6px solid green;
+    width: 250px;
+    height: 250px;
+    position: fixed;
+    top: 35%;
+    left: 45%;
+    .div{
+        border: 6px solid green;
+        border-radius: 50%;
+        background-color: green;
+        margin: 20px;
+    width: 25px;
+    height: 25px;
+    }
+}
+#h1{
+    position: fixed;
+    top: 25%;
+    left: 25%;
+}
+#h2{
+    position: fixed;
+    top: 25%;
+    left: 78%;
+}
+#button1{
+    position: fixed;
+    top: 50%;
+    left: 25%;
+    width: 100px;
+    height: 40px;
+    font-size: x-large;
+    background-color: gray;
+    color: white;
+    border-style: none;
+    border-radius: 3px;
+}
+#button2{
+    position: fixed;
+    top: 50%;
+    left: 78%;
+    width: 100px;
+    height: 40px;
+    font-size: x-large;
+    background-color: gray;
+    color: white;
+    border-style: none;
+    border-radius: 3px;
+}
+#mark1{
+    position: fixed;
+    top: 40%;
+    left: 26%;
+}
+#mark2{
+    position: fixed;
+    top: 40%;
+    left: 79%;
+}
+.popup{
+    border: 3px solid white;
+    background-color: gray;
+    border-radius: 10px;
+    width: 350px;
+    height: 200px;
+    text-align: center;
+    color: white;
+    position: fixed;
+    top: 40%;
+    left: 42%;
+    display: none;
+    z-index: 3;
+    #cancel{
+        width: 100px;
+        font-size: larger;
+        border-radius: 5px;
+        border: 3px white;
+        margin-top: 25px;
+    }
+}
+#reset{
+position: fixed;
+top: 90%;
+left: 50%;
+background-color: gray;
+color: white;
+padding: 8px;
+width: 100px;
+border-radius: 5px;
+border: none;
+}
